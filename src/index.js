@@ -1,12 +1,6 @@
-import _ from 'lodash';
+import html from './README.md';
 
-function component() {
-  let html = require('./README.md');
-  let container = document.getElementById('container');
+let container = document.getElementById('title');
+console.log(container);
 
-  container.innerHTML = html;
-
-  return container;
-}
-
-document.body.appendChild(component());
+container.innerHTML = html;
