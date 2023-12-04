@@ -1,0 +1,21 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build ./src/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/resolver-glob": "^2.10.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "@plasmohq/parcel-optimizer-es": "^0.4.0",
+    "parcel": "^2.10.3"
+  }
+}
