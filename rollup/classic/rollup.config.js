@@ -15,6 +15,7 @@ export default {
       targets: [
         { src: 'src/*.html', dest: 'dist' },
         { src: 'src/*.css', dest: 'dist' },
+        { src: 'src/image', dest: 'dist' },
       ],
     }),
   ],
